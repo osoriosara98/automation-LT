@@ -1,0 +1,19 @@
+{
+  "name": "cypress-leantech",
+  "version": "1.0.0",
+  "description": "Automation for Leantech",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "javascript"
+  ],
+  "author": "Sara Osorio",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.2.0"
+  }
+}
