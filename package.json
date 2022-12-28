@@ -1,10 +1,11 @@
 {
-  "name": "cypress-leantech",
+  "name": "automation-lt",
   "version": "1.0.0",
   "description": "Automation for Leantech",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/e2e/cypress-test/*.cy.js"
   },
   "keywords": [
     "cypress",
@@ -13,7 +14,8 @@
   ],
   "author": "Sara Osorio",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^12.2.0"
+  "devDependencies": {
+    "cypress": "^12.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
   }
 }
